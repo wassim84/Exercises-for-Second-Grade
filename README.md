@@ -46,6 +46,7 @@
 الرابط محدّد في `ContentConfig.BASE_URL`.
 
 ## البناء
-- عبر GitHub: عند كل push يبني `.github/workflows/build.yml` ملف APK ويضعه في Artifacts.
+- عبر GitHub: عند كل push يبني `.github/workflows/build.yml` ملف APK وينشره في Releases، ورابط التحميل الثابت:
+  https://github.com/wassim84/Exercises-for-Second-Grade/releases/latest/download/tania-ibtidai.apk
 - محليًا: افتح المجلد في Android Studio، أو `./gradlew assembleDebug`.
 - الاختبارات `./gradlew testDebugUnitTest` تتحقق من منطق التصحيح ومن صلاحية كل ملفات التمارين.
