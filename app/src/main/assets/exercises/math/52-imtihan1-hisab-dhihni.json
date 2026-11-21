@@ -1,0 +1,68 @@
+{
+ "id": "math-imt1-dh",
+ "title": "امتحان 1: حساب ذهني",
+ "instructions": "أحسب ذهنيًّا:",
+ "questions": [
+  {
+   "type": "input",
+   "prompt": "20 + 60 = ……",
+   "answers": [
+    "80"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "35 + 5 = ……",
+   "answers": [
+    "40"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "78 − 8 = ……",
+   "answers": [
+    "70"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "80 − 50 = ……",
+   "answers": [
+    "30"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "أكتب العدد الذي يأتي مباشرةً بعد 89:",
+   "answers": [
+    "90"
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "64 …… 46",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    ">"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "أحسب المبلغ: 50 مي + 20 مي + 5 مي = ……",
+   "answers": [
+    "75"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "مع رامي 50 مي. اشترى مسطرة بـ 20 مي. كم بقي له؟",
+   "answers": [
+    "30"
+   ]
+  }
+ ]
+}

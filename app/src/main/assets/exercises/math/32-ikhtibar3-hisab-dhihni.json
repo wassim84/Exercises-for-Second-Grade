@@ -1,0 +1,49 @@
+{
+ "id": "math-ikh3-dh",
+ "title": "اختبار 3: حساب ذهني",
+ "instructions": "أحسب ذهنيًّا:",
+ "questions": [
+  {
+   "type": "numbers",
+   "prompt": "أعدّ وفق خطوة منتظمة: 300 – 400 – …… – ……",
+   "answers": [
+    "500 600"
+   ]
+  },
+  {
+   "type": "numbers",
+   "prompt": "أعدّ وفق خطوة منتظمة: 150 – 200 – …… – ……",
+   "answers": [
+    "250 300"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "أجد عددًا محصورًا بين 60 و 62:",
+   "answers": [
+    "61"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "80 + 7 = ……",
+   "answers": [
+    "87"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "300 + 200 = ……",
+   "answers": [
+    "500"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "أحسب مجموع قطعتين من فئة 50 مي:",
+   "answers": [
+    "100"
+   ]
+  }
+ ]
+}

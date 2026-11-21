@@ -1,0 +1,73 @@
+{
+ "id": "math-ikh1-dh",
+ "title": "اختبار 1: حساب ذهني",
+ "instructions": "أحسب ذهنيًّا:",
+ "questions": [
+  {
+   "type": "numbers",
+   "prompt": "أفكّك إلى الصيغة القانونية: 65 = …… + ……",
+   "answers": [
+    "60 + 5"
+   ]
+  },
+  {
+   "type": "numbers",
+   "prompt": "أفكّك إلى الصيغة القانونية: 31 = …… + ……",
+   "answers": [
+    "30 + 1"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "75 = 70 + ……",
+   "answers": [
+    "5"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "…… = 30 + 15",
+   "answers": [
+    "45"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "العدد الذي يسبق مباشرةً العدد 50 هو:",
+   "answers": [
+    "49"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "العدد الذي يلي مباشرةً العدد 89 هو:",
+   "answers": [
+    "90"
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "68 …… 86",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    "<"
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "59 …… 95",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    "<"
+   ]
+  }
+ ]
+}
