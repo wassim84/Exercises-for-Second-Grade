@@ -9,7 +9,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
+import androidx.compose.animation.Crossfade
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -26,6 +28,7 @@ import tn.ibtidai.tania.data.Subject
 import tn.ibtidai.tania.ui.ExerciseListScreen
 import tn.ibtidai.tania.ui.ExerciseScreen
 import tn.ibtidai.tania.ui.HomeScreen
+import tn.ibtidai.tania.ui.SplashScreen
 import tn.ibtidai.tania.ui.TaniaTheme
 
 class MainActivity : ComponentActivity() {
@@ -48,6 +51,12 @@ private fun App(repo: ExerciseRepository) {
     var exercise by remember { mutableStateOf<Exercise?>(null) }
     var contentVersion by remember { mutableIntStateOf(0) }
     var notice by remember { mutableStateOf<String?>(null) }
+    var showSplash by rememberSaveable { mutableStateOf(true) }
+
+    LaunchedEffect(Unit) {
+        delay(2500)
+        showSplash = false
+    }
 
     // عند فتح التطبيق: نتحقق من وجود تمارين جديدة على GitHub (بدون إنترنت نكمل بما هو موجود)
     LaunchedEffect(Unit) {
@@ -67,6 +76,8 @@ private fun App(repo: ExerciseRepository) {
     val s = subject
     val e = exercise
     Box(Modifier.fillMaxSize()) {
+    Crossfade(targetState = showSplash, label = "splash") { splash ->
+    if (splash) SplashScreen(onDone = { showSplash = false }) else
     when {
         s == null -> HomeScreen(onSubject = { subject = it })
         e == null -> ExerciseListScreen(
@@ -76,6 +87,7 @@ private fun App(repo: ExerciseRepository) {
             onOpen = { exercise = it },
         )
         else -> ExerciseScreen(subject = s, exercise = e, onBack = { exercise = null })
+    }
     }
     notice?.let {
         Snackbar(Modifier.align(Alignment.BottomCenter).padding(16.dp)) { Text(it, fontSize = 18.sp) }

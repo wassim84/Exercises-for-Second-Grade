@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Tania" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Tania" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- نفس لون شاشة البداية حتى لا يظهر وميض أبيض عند الفتح -->
+        <item name="android:windowBackground">@color/splash_blue</item>
+    </style>
 </resources>
