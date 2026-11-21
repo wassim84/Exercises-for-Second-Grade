@@ -1,6 +1,7 @@
 package tn.ibtidai.tania.data
 
 import kotlinx.serialization.json.Json
+import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import java.io.File
@@ -12,7 +13,7 @@ class ExerciseFilesTest {
 
     @Test fun allExerciseFilesAreValid() {
         val root = listOf(File("src/main/assets/exercises"), File("app/src/main/assets/exercises")).first { it.exists() }
-        val files = root.walkTopDown().filter { it.extension == "json" }.toList()
+        val files = root.walkTopDown().filter { it.extension == "json" && it.name != "manifest.json" }.toList()
         assertTrue("no exercise files", files.isNotEmpty())
         for (f in files) {
             val ex = json.decodeFromString(Exercise.serializer(), f.readText())
@@ -25,5 +26,15 @@ class ExerciseFilesTest {
                 )
             }
         }
+    }
+
+    /** إن فشل هذا الاختبار: شغّل python3 tools/build_manifest.py */
+    @Test fun manifestIsUpToDate() {
+        val root = listOf(File("src/main/assets/exercises"), File("app/src/main/assets/exercises")).first { it.exists() }
+        val manifest = json.decodeFromString(Manifest.serializer(), File(root, "manifest.json").readText())
+        val actual = root.walkTopDown()
+            .filter { it.isFile && it.extension == "json" && it.name != "manifest.json" }
+            .associate { it.relativeTo(root).invariantSeparatorsPath to sha256(it.readBytes()) }
+        assertEquals("manifest.json is stale: run python3 tools/build_manifest.py", actual, manifest.files)
     }
 }

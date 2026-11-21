@@ -1,0 +1,31 @@
+{
+ "files": {
+  "islamic/01-wudu.json": "225472dff5a1719767a69d544f89e01e75180960800887c111811b7266d280e8",
+  "math/10-ikhtibar1-mazraa.json": "92671a939625078c026b96469c6b8299bf42966309e7a93dcafae795517610f5",
+  "math/11-ikhtibar1-hisab-dhihni.json": "48ac920eba1677ff349127ba37da3727ce5c379f66402e2f4fc6df14e04eeb2d",
+  "math/20-ikhtibar2-bakhira.json": "667237e8da8b07f6d545d9c413535ed0d2f4ef7333e59ea79a661fae5ee02854",
+  "math/21-ikhtibar2-suwar.json": "95faa5b9afaab28e15acb3597b3a9c1e0f67a6bdfbcd66b8a40e8b922927d47e",
+  "math/22-ikhtibar2-hisab-dhihni.json": "42be2b7d677ca8bfdef1abcb639913d32a899ced9a1063b828f68c485a4127e0",
+  "math/30-ikhtibar3-rif.json": "ad0f8291ff79b46701ba3af3fb1bb6263acad0f22f87dc7404875e09b2d2cf9c",
+  "math/31-ikhtibar3-souq.json": "520858424ad29ddb06dae4178fd2b33d0c31bd8a204d2c3c44189b94c19c312d",
+  "math/32-ikhtibar3-hisab-dhihni.json": "e2a004e4496d0ac7eb8ada4118fdb00b9ba22d57cea00e787f3692b5c211d982",
+  "math/40-silsila-maktaba.json": "9635240c3eb40984bdf818525dbe490cb630e5f14efb35cc3650b4577df75c39",
+  "math/41-silsila-hafila.json": "0ca100b43223afaa34f7e96e11684eccaf50cfe9478fabdd12f232279d418666",
+  "math/42-silsila-hadiqa.json": "dfea1ef43f2f343d8781be5f71ba80c83a7e2921d5231483c3429b4f4c1be2fe",
+  "math/43-silsila-maarid.json": "59e63b88dd0a68a4560c70e3477e72913801011503819dc13d4864dd14cf4eb4",
+  "math/44-silsila-nuqud.json": "d45d0cf66215cec038a17c4465afde4ca596fd5e765ad40a8e8fa066b9ea31ae",
+  "math/45-silsila-qissa.json": "102712ea2278cba229cbf745f5a82597adf339a7cefd657423ed7df630b8daa9",
+  "math/50-imtihan1-maarid-kitab.json": "10b6ee6bd77f898571aee88801dda1c3ac9ff54f17e9a0fb0c7179f001ea7506",
+  "math/51-imtihan1-nuqud.json": "361e9405c92ae2a665b290e42c576942caf29d47be7a7fcbf785abfe74f1b307",
+  "math/52-imtihan1-hisab-dhihni.json": "d4527cdb0631b26b353446879b1815fecab3f2306972a5de681cb46f8ff2b368",
+  "math/60-kul-wa-juz.json": "8d6efc7c4c697b5de2a8e6bc08c6c15af7e33b6f071236d3f44e3c6cb7bdc69e",
+  "math/61-nafs-al-adad.json": "5817dbd652fa6062e0277fa93cfb3fed1cbadd007232082d94cc3139111c86a0",
+  "math/70-taqyim-hamla.json": "ec25bfd007b35443f4dfbe0af670e158ea2462788e8a6e4bcfac8b9cef53fab1",
+  "math/71-taqyim-nuqud.json": "dfd9dab9174ce6df1c473d12bd44d1c63c3906909bd3f30cfaa55e2d1dd143c1",
+  "reading/10-shajarat-allawz.json": "04699fb92dd6fa8dca55ed0626663e7f3d1a8bb3a2806fdcd263cf7d4eb86afe",
+  "science/10-ikhtibar1-day3a.json": "5fe225615c685992c052b25a313d9addffd7a3c809b99a76b11eecf435483191",
+  "science/11-ikhtibar1-nabatat.json": "8ca7d5cb3f0941f38290feef60578b5d939373429228a078d111fdc2d3656e2d",
+  "science/12-ikhtibar1-masafa.json": "39157e712c7d1bc5262a23a505c38637d4b3824f13e1c14f105a0dcf58b16743",
+  "writing/01-jumla.json": "e79127f24a9890a11e01fe37d7a930eaf75ffb1a5a21c491d72be276110b538b"
+ }
+}
