@@ -7,19 +7,34 @@ plugins {
 
 android {
     namespace = "tn.ibtidai.tania"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "tn.ibtidai.tania"
         minSdk = 24
-        targetSdk = 35
-        versionCode = 1
-        versionName = "0.1"
+        targetSdk = 36
+        // رقم النسخة يزيد تلقائيًا مع كل بناء على GitHub (مطلوب لكل رفع على Play)
+        versionCode = (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInt()
+        versionName = "1.0.${System.getenv("GITHUB_RUN_NUMBER") ?: "0"}"
+    }
+
+    // مفتاح الرفع على Play: يُقرأ من أسرار GitHub، ولا يوجد أبدًا داخل المستودع
+    val keystorePath = System.getenv("SIGNING_KEYSTORE_PATH")
+    signingConfigs {
+        if (keystorePath != null) {
+            create("upload") {
+                storeFile = file(keystorePath)
+                storePassword = System.getenv("SIGNING_STORE_PASSWORD")
+                keyAlias = System.getenv("SIGNING_KEY_ALIAS")
+                keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
+            }
+        }
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
+            if (keystorePath != null) signingConfig = signingConfigs.getByName("upload")
         }
     }
     compileOptions {
