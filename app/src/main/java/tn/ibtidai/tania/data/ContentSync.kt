@@ -9,7 +9,7 @@ import java.net.URL
 /** مكان التمارين على GitHub. يكفي إضافة ملف JSON وتحديث manifest.json هناك ليصل للتلاميذ. */
 object ContentConfig {
     const val BASE_URL =
-        "https://raw.githubusercontent.com/wassim84/exercises-for-second-grade/main/app/src/main/assets/exercises/"
+        "https://raw.githubusercontent.com/wassim84/Exercises-for-Second-Grade/main/app/src/main/assets/exercises/"
 }
 
 class ContentSync(private val context: Context, private val baseUrl: String = ContentConfig.BASE_URL) {
