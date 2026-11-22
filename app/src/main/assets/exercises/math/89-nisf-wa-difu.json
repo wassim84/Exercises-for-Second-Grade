@@ -1,0 +1,231 @@
+{
+ "id": "math-89",
+ "title": "حساب ذهني: النصف والضعف",
+ "instructions": "أحسب ذهنيًّا:",
+ "questions": [
+  {
+   "type": "input",
+   "prompt": "نصف 18 = ……",
+   "answers": [
+    "9"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 12 = ……",
+   "answers": [
+    "6"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 10 = ……",
+   "answers": [
+    "5"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 40 = ……",
+   "answers": [
+    "20"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 20 = ……",
+   "answers": [
+    "10"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 8 = ……",
+   "answers": [
+    "4"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 20 = ……",
+   "answers": [
+    "40"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 9 = ……",
+   "answers": [
+    "18"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 6 = ……",
+   "answers": [
+    "12"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 4 = ……",
+   "answers": [
+    "8"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 35 = ……",
+   "answers": [
+    "70"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 45 = ……",
+   "answers": [
+    "90"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "العدد الذي يلي مباشرة 37 هو ……",
+   "answers": [
+    "38"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "العدد الذي يسبق مباشرة 20 هو ……",
+   "answers": [
+    "19"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "العدد الذي يسبق مباشرة 78 هو ……",
+   "answers": [
+    "77"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "العدد الذي يلي مباشرة 89 هو ……",
+   "answers": [
+    "90"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "العدد الذي يسبق مباشرة 30 هو ……",
+   "answers": [
+    "29"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "العدد الذي يلي مباشرة 45 هو ……",
+   "answers": [
+    "46"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 48 = ……",
+   "answers": [
+    "24"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 64 = ……",
+   "answers": [
+    "32"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 24 = ……",
+   "answers": [
+    "12"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 82 = ……",
+   "answers": [
+    "41"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 26 = ……",
+   "answers": [
+    "13"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 70 = ……",
+   "answers": [
+    "35"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 50 = ……",
+   "answers": [
+    "25"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "نصف 30 = ……",
+   "answers": [
+    "15"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 49 = ……",
+   "answers": [
+    "98"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 46 = ……",
+   "answers": [
+    "92"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 43 = ……",
+   "answers": [
+    "86"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 37 = ……",
+   "answers": [
+    "74"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 29 = ……",
+   "answers": [
+    "58"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "ضعف 15 = ……",
+   "answers": [
+    "30"
+   ]
+  }
+ ]
+}

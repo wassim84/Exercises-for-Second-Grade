@@ -1,0 +1,191 @@
+{
+ "id": "math-85",
+ "title": "العدد 100: أفكّكه وأركّبه",
+ "instructions": "أكمل بما يناسب:",
+ "questions": [
+  {
+   "type": "input",
+   "prompt": "100 = 30 + 20 + ……",
+   "answers": [
+    "50"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "100 = 70 + ……",
+   "answers": [
+    "30"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "100 = 35 + 50 + ……",
+   "answers": [
+    "15"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "53 + …… = 100",
+   "answers": [
+    "47"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "80 + …… = 100",
+   "answers": [
+    "20"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "17 + …… = 100",
+   "answers": [
+    "83"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "28 + …… = 100",
+   "answers": [
+    "72"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "16 + …… = 100",
+   "answers": [
+    "84"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "18 + …… = 100",
+   "answers": [
+    "82"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "50 + …… = 100",
+   "answers": [
+    "50"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "13 + …… = 100",
+   "answers": [
+    "87"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "45 + …… = 100",
+   "answers": [
+    "55"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "35 + …… = 100",
+   "answers": [
+    "65"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "37 + …… = 100",
+   "answers": [
+    "63"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "15 + …… = 100",
+   "answers": [
+    "85"
+   ]
+  },
+  {
+   "type": "input",
+   "prompt": "60 + …… = 100",
+   "answers": [
+    "40"
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "60 + 40 …… 100",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    "="
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "22 + 78 …… 100",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    "="
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "51 + 39 …… 100",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    "<"
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "15 + 80 …… 100",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    "<"
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "90 + 9 …… 100",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    "<"
+   ]
+  },
+  {
+   "type": "choice",
+   "prompt": "50 + 20 …… 100",
+   "options": [
+    "<",
+    ">",
+    "="
+   ],
+   "answers": [
+    "<"
+   ]
+  }
+ ]
+}
