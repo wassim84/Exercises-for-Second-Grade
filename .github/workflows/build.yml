@@ -42,6 +42,13 @@ jobs:
           SIGNING_KEYSTORE_PATH="$RUNNER_TEMP/upload.jks" ./gradlew bundleRelease
           cp app/build/outputs/bundle/release/app-release.aab tania-ibtidai-play.aab
           rm -f "$RUNNER_TEMP/upload.jks"
+      # بدون الأسرار: نتحقق فقط أنّ بناء النسخة الموقّعة يعمل، بمفتاح مؤقّت لا يُنشر
+      - name: Check release build (throwaway key, not for Play)
+        if: env.SIGNING_KEYSTORE_BASE64 == ''
+        run: |
+          keytool -genkeypair -keystore "$RUNNER_TEMP/test.jks" -storetype PKCS12 -alias test -keyalg RSA -keysize 2048 -validity 1 -storepass testpass -keypass testpass -dname "CN=test"
+          SIGNING_KEYSTORE_PATH="$RUNNER_TEMP/test.jks" SIGNING_STORE_PASSWORD=testpass SIGNING_KEY_ALIAS=test SIGNING_KEY_PASSWORD=testpass ./gradlew bundleRelease
+          rm -f "$RUNNER_TEMP/test.jks"
       - uses: actions/upload-artifact@v4
         if: hashFiles('tania-ibtidai-play.aab') != ''
         with:
